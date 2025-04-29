@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+.git
+.idea
+.vscode
+.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/itsVimalkumaR.iml
