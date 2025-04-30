@@ -68,3 +68,12 @@ jobs:
           publish_branch: output
           commit_message: "Update snake animation [skip ci]"   # Optionally, you can set a custom commit message
           keep_files: false  # Clean the branch before deploying
+
+      - name: Verify SVG Validity
+        run: |
+          sudo apt-get install -y libxml2-utils
+          xmllint --noout dist/github-contributions.svg
+
+      - name: Remove Unexpected Files
+        run: |
+            find dist/ -type f -not -name 'github-contributions.*' -delete
