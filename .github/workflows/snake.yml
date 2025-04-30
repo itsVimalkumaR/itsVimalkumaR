@@ -11,44 +11,56 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0  # Fetches entire commit history for contribution graph
+      # Step 2: Clean the existing outputs
+      - name: Clean Previous Outputs
+        run: |
+          mkdir -p dist
+          rm -rf dist/* || true
           
-      # Step 2: Ensure the directory exists
-      - name: Create dist directory
-        run: mkdir -p dist
+      # # Step 3: Ensure the directory exists
+      # - name: Create dist directory
+      #   run: mkdir -p dist
         
       # Step 3: Generate the snake animations
-      - name: Generate GitHub Contributions Snake Animations
+      - name: Generate Snake
         uses: Platane/snk@v3
         id: generate-snake
         with:
           github_user_name: ${{ github.repository_owner }}  # GitHub username to generate the animation for
           outputs: |    # Define the output files and their configurations
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contributions.svg
+            dist/github-contributions-dark.svg?palette=github-dark
+            dist/github-contributions.gif?color_snake=orange
+            # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Step 4: Runs even if the previous step fails
-      - name: Debug Output
-        if: always()
+      # - name: Debug Output
+      #   if: always()
+      #   run: |
+      #     echo "Debugging output:"
+      #     ls -la dist/ || true
+      #     [ -f dist/github-snake.svg ] && echo "SVG exists" || echo "SVG missing" 
+      #     # [ -f dist/github-snake-dark.svg ] || exit 1
+      #     [ -f dist/ocean.gif ] && echo "GIF exists" || echo "GIF missing"
+      - name: Validate Outputs
         run: |
-          echo "Debugging output:"
-          ls -la dist/ || true
-          [ -f dist/github-snake.svg ] && echo "SVG exists" || echo "SVG missing" 
-          # [ -f dist/github-snake-dark.svg ] || exit 1
-          [ -f dist/ocean.gif ] && echo "GIF exists" || echo "GIF missing"
+          echo "Generated files:"
+          ls -la dist/
+          [ -f dist/github-contributions.svg ] || exit 1
+          [ -f dist/github-contributions-dark.svg ] || exit 1
+          [ -f dist/github-contributions.gif ] || exit 1
 
       # Step 5: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
-        if: success()  # Only deploy if previous steps succeeded
+        # if: success()  # Only deploy if previous steps succeeded
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
