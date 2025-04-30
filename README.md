@@ -14,7 +14,7 @@
 
 <h3 align="center">Languages and Tools</h3>
 
-<div align="center" style="display: flex; justify-content: center; gap: 30px; margin: 30px 0; line-height: 1.6;">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin: 30px 0; line-height: 1.6;">
 
   <div style="display: flex; flex-direction: column; align-items: center;">
     <a href="https://www.w3.org/html/" target="_blank">
