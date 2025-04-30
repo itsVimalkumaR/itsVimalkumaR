@@ -41,6 +41,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Check Rate Limits
+        if: always()  # Runs even if the previous step fails
+        run: |
+          echo "=== GITHUB API RATE LIMITS ==="
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/rate_limit | jq .resources.graphql
+
+      - name: Debug API Response
+        if: failure()  # Only runs if generation failed
+        run: |
+          echo "=== DEBUGGING API RESPONSE ==="
+          echo "Repository Owner: ${{ github.repository_owner }}"
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/users/${{ github.repository_owner }}/events?per_page=1" | jq .
+
       - name: Validate Outputs
         if: always()
         run: |
