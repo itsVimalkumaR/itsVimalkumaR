@@ -69,3 +69,5 @@
 <p align="center">
   <img src="https://github.com/itsVimalkumaR/itsVimalkumaR/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
+
+![Snake Animation](https://raw.githubusercontent.com/itsVimalkumaR/itsVimalkumaR/output/github-contributions.svg)
