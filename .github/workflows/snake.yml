@@ -2,78 +2,63 @@ name: GitHub Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:     # Allows manual triggering
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches:
-      - main             # Triggers on pushes to the main branch
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetches entire commit history for contribution graph
-      # Step 2: Clean the existing outputs
-      - name: Clean Previous Outputs
+          fetch-depth: 0  # Get full history for contributions
+
+      - name: Setup Environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
+
+      - name: Clean Workspace
         run: |
           mkdir -p dist
           rm -rf dist/* || true
-          
-      # # Step 3: Ensure the directory exists
-      # - name: Create dist directory
-      #   run: mkdir -p dist
-        
-      # Step 3: Generate the snake animations
-      - name: Generate Snake
+
+      - name: Generate Snake Animation
         uses: Platane/snk@v3
-        id: generate-snake
+        id: generate
+        continue-on-error: false
         with:
-          github_user_name: ${{ github.repository_owner }}  # GitHub username to generate the animation for
-          outputs: |    # Define the output files and their configurations
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
             dist/github-contributions.svg
             dist/github-contributions-dark.svg?palette=github-dark
             dist/github-contributions.gif?color_snake=orange
-            # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 4: Runs even if the previous step fails
-      # - name: Debug Output
-      #   if: always()
-      #   run: |
-      #     echo "Debugging output:"
-      #     ls -la dist/ || true
-      #     [ -f dist/github-snake.svg ] && echo "SVG exists" || echo "SVG missing" 
-      #     # [ -f dist/github-snake-dark.svg ] || exit 1
-      #     [ -f dist/ocean.gif ] && echo "GIF exists" || echo "GIF missing"
       - name: Validate Outputs
+        if: always()
         run: |
-          echo "Generated files:"
+          echo "=== DEBUG OUTPUT ==="
           ls -la dist/
-          [ -f dist/github-contributions.svg ] || exit 1
-          [ -f dist/github-contributions-dark.svg ] || exit 1
-          [ -f dist/github-contributions.gif ] || exit 1
+          echo "=== FILE CHECKS ==="
+          [ -f dist/github-contributions.svg ] || { echo "SVG missing"; exit 1; }
+          [ -f dist/github-contributions-dark.svg ] || { echo "Dark SVG missing"; exit 1; }
+          [ -f dist/github-contributions.gif ] || { echo "GIF missing"; exit 1; }
+          echo "=== XML VALIDATION ==="
+          xmllint --noout dist/github-contributions.svg || { echo "Invalid SVG"; exit 1; }
 
-      # Step 5: Deploy the generated files to the 'output' branch
-      - name: Deploy to Output Branch
-        # if: success()  # Only deploy if previous steps succeeded
+      - name: Deploy to GitHub Pages
+        if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          commit_message: "Update snake animation [skip ci]"   # Optionally, you can set a custom commit message
-          keep_files: false  # Clean the branch before deploying
-
-      - name: Verify SVG Validity
-        run: |
-          sudo apt-get install -y libxml2-utils
-          xmllint --noout dist/github-contributions.svg
-
-      - name: Remove Unexpected Files
-        run: |
-            find dist/ -type f -not -name 'github-contributions.*' -delete
+          commit_message: "Update snake animation [skip ci]"
+          keep_files: false
