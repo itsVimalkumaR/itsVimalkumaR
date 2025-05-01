@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Vimalkumar Murugesan</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Sriracha&color=D2D86E&lines=I'm+a+Test+Engineer"
+  <img src="https://readme-typing-svg.herokuapp.com?font=Sriracha&color=D2D86E&lines=I'm+a+Automation+Test+Engineer"
     alt="Typing SVG">
 </p>
 
