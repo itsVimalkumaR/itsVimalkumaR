@@ -67,37 +67,37 @@
 <h2 align="center">📊 GitHub Statistical Reports</h2>
 
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=itsVimalkumaR&show_icons=true&theme=tokyonight" alt="Top Languages" />
-    &nbsp;&nbsp;&nbsp;
-    <img src="https://github-readme-stats.vercel.app/api?username=itsVimalkumaR&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=itsVimalkumaR&show_icons=true&theme=tokyonight" alt="Top Languages" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api?username=itsVimalkumaR&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=itsVimalkumaR&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itsVimalkumaR&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" />
 </p>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itsVimalkumaR&theme=tokyonight" alt="GitHub Profile Summary" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itsVimalkumaR&theme=tokyonight" alt="GitHub Repos per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itsVimalkumaR&theme=tokyonight" alt="Repos per Language" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itsVimalkumaR&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itsVimalkumaR&theme=tokyonight" alt="GitHub Stats Card" />
   &nbsp;&nbsp;&nbsp;
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itsVimalkumaR&theme=tokyonight&utcOffset=+2" alt="GitHub Productive Time" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itsVimalkumaR&theme=tokyonight&utcOffset=+2" alt="Productive Time" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itsVimalkumaR&theme=tokyonight" alt="GitHub Most Commit Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itsVimalkumaR&theme=tokyonight" alt="Most Committed Language" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=itsVimalkumaR&theme=darkhub&no-frame=true&no-bg=true&margin-w=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=itsVimalkumaR&theme=darkhub&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=itsVimalkumaR&label=Profile+Views&color=0e75b6&style=flat" alt="itsVimalkumaR" />
+  <img src="https://komarev.com/ghpvc/?username=itsVimalkumaR&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 ---
@@ -106,23 +106,17 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vimalkumar-m/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:vimalkumarm523@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://itsvimalkumar.github.io/portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-GitHub?style=for-the-badge&logo=Portfolio&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-Visit-%2312100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/itsVimalkumaR/itsVimalkumaR/output/github-contributions-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/itsVimalkumaR/itsVimalkumaR/output/github-contributions-dark.svg" alt="Snake Contribution Animation" />
 </p>
 
-
-[![](https://raw.githubusercontent.com/itsVimalkumaR/github-profile-summary-cards-example/master/profile-summary-card-output/default/0-profile-details.svg)](https://github.com/itsVimalkumaR/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/itsVimalkumaR/github-profile-summary-cards-example/master/profile-summary-card-output/default/1-repos-per-language.svg)](https://github.com/itsVimalkumaR/github-profile-summary-cards) 
-[![](https://raw.githubusercontent.com/itsVimalkumaR/github-profile-summary-cards-example/master/profile-summary-card-output/default/2-most-commit-language.svg)](https://github.com/itsVimalkumaR/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/itsVimalkumaR/github-profile-summary-cards-example/master/profile-summary-card-output/default/3-stats.svg)](https://github.com/itsVimalkumaR/github-profile-summary-cards) 
-[![](https://raw.githubusercontent.com/itsVimalkumaR/github-profile-summary-cards-example/master/profile-summary-card-output/default/4-productive-time.svg)](https://github.com/itsVimalkumaR/github-profile-summary-cards)
