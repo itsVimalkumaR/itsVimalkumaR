@@ -8,16 +8,16 @@ on:
   workflow_dispatch:
 
 jobs:
-build:
-  runs-on: ubuntu-latest
-  name: generate-github-cards
-  permissions:
-    contents: write
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-cards
+    permissions:
+      contents: write
 
-  steps:
-    - uses: actions/checkout@v2
-    - uses: vn7n24fzkq/github-profile-summary-cards@release
-      env:
-        GITHUB_TOKEN: ${{ secrets.SUMMARY_CARD_TOKEN }}
-      with:
-        USERNAME: ${{ github.itsVimalkumaR }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARD_TOKEN }}
+        with:
+          USERNAME: ${{ github.itsVimalkumaR }}
