@@ -1,5 +1,3 @@
-# Generating a README.md content with all suggestions included
-
 <h1 align="center">Hi 👋, I'm Vimalkumar Murugesan</h1>
 
 <p align="center">
