@@ -1,120 +1,259 @@
 <h1 align="center">Hi 👋, I'm Vimalkumar Murugesan</h1>
+<h3 align="center">Senior Manual & Automation Test Engineer | SDET Aspirant</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Sriracha&color=FFD700&center=true&vCenter=true&lines=I'm+an+Automation+Engineer;Always+Learning;Love+Building+Cool+Stuff" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Sriracha&color=ff0000&center=true&vCenter=true&width=800&lines=Automation+%26+Manual+Testing+Engineer;UI+%7C+API+%7C+End-to-End+Testing;CI%2FCD+Integrated+Automation;Quality-Driven+Engineering+Mindset" />
 </p>
 
 ---
 
-### 🔭 I’m currently working on Automation and Manual Testing  
-### 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/vimalkumar-m/)  
-### ⚡ Fun fact: I’m currently learning everything 🤣  
+## 🚀 About Me
+- 🔭 Senior QA Engineer specializing in **Automation & Manual Testing**
+- 🧪 Expertise in **UI, API, Regression, Smoke & End-to-End Testing**
+- ⚙️ Strong experience integrating automation with **CI/CD pipelines**
+- 🧠 Solid understanding of **Agile / Scrum methodologies**
+- 📫 Reach me on **[LinkedIn](https://www.linkedin.com/in/vimalkumar-m/)**
 
 ---
 
-<div align="center">
-
-## 💻 Tech Stack ⚡
-
-<h3 align="center">🧠 Languages</h3>
-
-![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white)
-
-<h3 align="center">🛢 Databases</h3>
-
-![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/mongodb-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-<h3 align="center">🧪 Testing Tools</h3>
-
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-4B7B5B?style=for-the-badge&logo=cypress&logoColor=white)
-![Robot Framework](https://img.shields.io/badge/Robot_Framework-7AE2CF?style=for-the-badge&logo=robotframework&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-003A70?style=for-the-badge&logo=playwright&logoColor=white)
-
-<h3 align="center">⚙️ DevOps & CI/CD</h3>
-
-![Jenkins](https://img.shields.io/badge/jenkins-6d6b6d?style=for-the-badge&logo=jenkins&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-384d54?style=for-the-badge&logo=docker&logoColor=white)
-
-<h3 align="center">🔧 Version Control</h3>
-
-![Git](https://img.shields.io/badge/git-f1502f?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/gitlab-fc6d26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Bitbucket](https://img.shields.io/badge/bitbucket-2684FF?style=for-the-badge&logo=bitbucket&logoColor=white)
-
-<h3 align="center">🧰 IDEs & Editors</h3>
-
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-00879E?style=for-the-badge&logo=intellijidea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-5F8B4C?style=for-the-badge&logo=pycharm&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Windows Terminal](https://img.shields.io/badge/Windows_Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
-
-<h3 align="center">🎨 Design Tools</h3>
-
-![Figma](https://img.shields.io/badge/figma-a259ff?style=for-the-badge&logo=figma&logoColor=white)
-
-</div>
+## 💼 Professional Summary
+Senior Manual & Automation Test Engineer with strong hands-on experience in **web and API automation**.  
+Proficient in designing **scalable automation frameworks**, validating **RESTful APIs**, and embedding quality checks into **CI/CD pipelines** to ensure reliable and high-quality software releases.
 
 ---
 
-<h2 align="center">📊 GitHub Statistical Reports</h2>
+## 🧠 Core Expertise
+- **UI Automation:** Selenium, Playwright, Cypress  
+- **API Testing:** Postman, REST Assured  
+- **Manual Testing:** Functional, Regression, Smoke, Sanity, E2E  
+- **Test Design:** Test plan, Test cases, scenarios, traceability  
+- **Defect Management:** Jira  
+- **CI/CD:** Jenkins, GitHub Actions, Docker  
+- **Methodology:** Agile / Scrum  
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=itsVimalkumaR&show_icons=true&theme=tokyonight" alt="Top Languages" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=itsVimalkumaR&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+---
+
+## 💻 Tech Stack
+
+### 🧠 Programming, Web & Data
+<p align="left">
+  <img src="https://techstack-generator.vercel.app/java-icon.svg" width="65"/>
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" width="65"/>
+  <img src="https://techstack-generator.vercel.app/js-icon.svg" width="65"/>
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="65"/>
+  <img src="https://techstack-generator.vercel.app/react-icon.svg" width="65"/>
+  <img src="https://skillicons.dev/icons?i=html" width="65"/>
+  <img src="https://skillicons.dev/icons?i=css" width="65"/>
+  <img src="https://skillicons.dev/icons?i=json" width="65"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itsVimalkumaR&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" />
+---
+
+### 🧪 UI Automation Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=selenium" width="65"/>
+  <img src="https://img.shields.io/badge/Cypress-4B7B5B?style=for-the-badge&logo=cypress&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Playwright-003A70?style=for-the-badge&logo=playwright&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Robot_Framework-7AE2CF?style=for-the-badge&logo=robotframework&logoColor=white"/>
 </p>
 
-<p align="center">
+---
+
+### 🔌 API Testing & Validation
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postman" width="65"/>
+  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55"/>
+  <img src="https://img.shields.io/badge/REST%20Assured-API%20Testing-orange?style=for-the-badge"/>
+</p>
+
+---
+
+### 🧩 Test Frameworks & Execution
+<p align="left">
+  <img src="https://img.shields.io/badge/TestNG-brightgreen?style=for-the-badge"/>
+</p>
+
+---
+
+### 🧠 Testing Methodologies & Practices
+<p align="left">
+  <img src="https://img.shields.io/badge/BDD-purple?style=for-the-badge"/>
+</p>
+
+---
+
+### ⚙️ Build, CI/CD & Version Control
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git" width="65"/>
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65"/>
+  <img src="https://skillicons.dev/icons?i=gitlab" width="65"/>
+  <img src="https://skillicons.dev/icons?i=bitbucket" width="65"/>
+  <img src="https://skillicons.dev/icons?i=githubactions" width="65"/>
+  <img src="https://skillicons.dev/icons?i=jenkins" width="65"/>
+  <img src="https://skillicons.dev/icons?i=maven" width="65"/>
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65"/>
+</p>
+
+---
+
+### 🏗 Infrastructure, Monitoring & Code Quality
+<p align="left">
+  <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="65"/>
+  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="65"/>
+  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="65"/>
+  <img src="https://skillicons.dev/icons?i=prometheus" width="65"/>
+  <img src="https://skillicons.dev/icons?i=redis" width="65"/>
+  <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="65"/>
+  <img src="https://techstack-generator.vercel.app/prettier-icon.svg" width="65"/>
+</p>
+
+---
+
+### 🛢 Databases & Messaging
+<p align="left">
+  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="65"/>
+  <img src="https://skillicons.dev/icons?i=mongodb" width="65"/>
+  <img src="https://skillicons.dev/icons?i=kafka" width="65"/>
+  <img src="https://skillicons.dev/icons?i=rocket" width="65"/>
+</p>
+
+---
+
+### 🧠 IDEs & Development Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=vscode" width="65"/>
+  <img src="https://skillicons.dev/icons?i=idea" width="65"/>
+  <img src="https://skillicons.dev/icons?i=pycharm" width="65"/>
+  <img src="https://skillicons.dev/icons?i=eclipse" width="65"/>
+</p>
+
+---
+
+### 🎨 Design & Documentation
+<p align="left">
+  <img src="https://img.shields.io/badge/Figma-a259ff?style=for-the-badge&logo=figma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel"/>
+  <img src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint"/>
+  <img src="https://img.shields.io/badge/Word-2B579A?style=for-the-badge&logo=microsoft-word"/>
+  <img src="https://img.shields.io/badge/CSV-Data-lightgrey?style=for-the-badge"/>
+  <img src="https://skillicons.dev/icons?i=md" width="65"/>
+</p>
+
+---
+
+### 💻 Operating Systems
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=linux" width="65"/>
+  <img src="https://skillicons.dev/icons?i=ubuntu" width="65"/>
+  <img src="https://skillicons.dev/icons?i=windows" width="65"/>
+</p>
+
+---
+
+## 📊 GitHub Stats
+<p align="left"> 
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itsVimalkumaR&theme=tokyo-night&hide_border=true" /> 
+</p> 
+
+<p align="left">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itsVimalkumaR&theme=tokyonight" alt="GitHub Profile Summary" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itsVimalkumaR&theme=tokyonight" alt="Repos per Language" />
 </p>
 
-<p align="center">
+<p align="left"> 
+  <img src="https://github-readme-stats.vercel.app/api?username=itsVimalkumaR&show_icons=true&theme=tokyonight" /> &nbsp;&nbsp; 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=itsVimalkumaR&layout=compact&theme=tokyonight" /> 
+</p> 
+
+<p align="left">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itsVimalkumaR&theme=tokyonight" alt="GitHub Stats Card" />
   &nbsp;&nbsp;&nbsp;
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itsVimalkumaR&theme=tokyonight&utcOffset=+2" alt="Productive Time" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itsVimalkumaR&theme=tokyonight" alt="Most Committed Language" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=itsVimalkumaR&theme=darkhub&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=itsVimalkumaR&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
+<p align="left"> 
+  <img src="https://raw.githubusercontent.com/itsVimalkumaR/itsVimalkumaR/output/github-contributions-dark.svg" /> 
 </p>
 
 ---
 
-<h3 align="center">📬 Connect with Me</h3>
+## 🚀 Featured Automation Projects
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/vimalkumar-m/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:vimalkumarm523@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://itsvimalkumar.github.io/portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-%2312100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
+### 🧪 UI Automation Framework – Selenium + Java
+**Tech:** Java, Selenium WebDriver, TestNG, Maven  
+- Designed **Page Object Model (POM)** based framework  
+- Automated regression & smoke test suites  
+- Integrated execution with **Jenkins CI**  
+- Generated structured reports and logs  
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/itsVimalkumaR/itsVimalkumaR/output/github-contributions-dark.svg" alt="Snake Contribution Animation" />
-</p>
+🔗 **Repo:** https://github.com/itsVimalkumaR
 
+---
+
+### 🔌 API Automation – Postman & REST Assured
+**Tech:** Postman, REST Assured, Java  
+- Validated REST APIs (GET, POST, PUT, DELETE)  
+- Performed schema & response validation  
+- Identified backend and business-logic defects  
+
+🔗 **Repo:** https://github.com/itsVimalkumaR
+
+---
+
+### 🎭 Playwright End-to-End Automation
+**Tech:** Playwright, JavaScript  
+- Automated critical end-to-end user journeys  
+- Headless execution with screenshots & videos  
+- Reduced manual regression effort  
+
+🔗 **Repo:** https://github.com/itsVimalkumaR
+
+---
+
+## 🏗 Automation Framework Architecture
+✔ Page Object Model (POM)  
+✔ Reusable utilities  
+✔ Config-driven execution  
+✔ CI/CD ready  
+
+```text
+src/test/java
+ ├── base
+ ├── pages
+ ├── tests
+ └── utils
+pom.xml
+testng.xml
+reports/
+```
+
+---
+
+## 🐞 Jira & Real Testing Experience
+- Created and managed **100+ Jira bugs & tasks**
+- Tested applications across **QA, INT, and PROD**
+- Re-tested fixes and reopened tickets when required
+- Wrote and maintained detailed **test cases & scenarios**
+- Collaborated closely with developers and product teams
+
+### 🔍 Defect Types Handled
+- API returning **4xx / 5xx errors**
+- UI not displaying backend validation messages
+- JSON parsing issues blocking UI rendering
+- Incorrect business rule execution
+- Missing toaster or alert messages
+  
+---
+
+## 📬 Connect With Me
+<p align="left"> 
+  <a href="https://www.linkedin.com/in/vimalkumar-m/" target="_blank"> 
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" /> 
+  </a> 
+  <a href="mailto:vimalkumarm523@gmail.com"> 
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail" /> 
+  </a> 
+  <a href="https://itsvimalkumar.github.io/portfolio/" target="_blank"> 
+    <img src="https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=github" /> 
+  </a> 
+</p> 
