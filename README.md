@@ -33,7 +33,7 @@
 ```yaml
 Name        : Vimalkumar Murugesan
 Role        : Senior Manual & Automation Test Engineer
-Location    : United States
+Location    : Ootathur, Tiruchirappalli, Tamil Nadu 621109
 Focus       : UI · API · End-to-End · Regression · Smoke Testing
 Methodology : Agile / Scrum
 Status      : Open to SDET opportunities
